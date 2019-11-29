@@ -1,0 +1,95 @@
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+ }
+ 
+ body {
+     height: 100vh;
+     background-image: linear-gradient(rgba(1, 1, 1, 0.1), rgba(1, 1, 1, 0.1)), url(img/bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .menu {
+     margin: 0 auto;
+     padding: 30px;
+     max-width: 1200px;
+ }
+ 
+ .menu ul {
+     list-style-type: none;
+     float: right;
+ }
+ 
+ .menu ul li {
+     display: inline-block;
+ }
+ 
+ .menu ul li a {
+     color: aliceblue;
+     size: 18px;
+     text-decoration: none;
+     padding: 5px 20px;
+     border: 1px transparent #fff;
+     /* for delay  */
+     transition: 0.6s ease;
+ }
+ 
+ .menu ul li a:hover {
+     background-color: #fff;
+     color: black;
+ }
+ 
+ .menu ul li.active a {
+     background-color: #fff;
+     color: black;
+ }
+ 
+ .logo {}
+ 
+ .logo img {
+     float: left;
+     width: 150px;
+     height: auto;
+ }
+ /* make div any whee u whant */
+ 
+ .title {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+ 
+ .title h1 {
+     color: #fff;
+     font-size: 50px;
+ }
+ 
+ .btn {
+     position: absolute;
+     top: 60%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+ 
+ .btn ul li {
+     display: inline-block;
+ }
+ 
+ .btn ul li a {
+     color: aliceblue;
+     size: 18px;
+     text-decoration: none;
+     padding: 5px 20px;
+     border: 1px solid #fff;
+     /* for delay  */
+     transition: 0.6s ease;
+ }
+ 
+ .btn ul li a:hover {
+     background-color: #fff;
+     color: black;
+ }
